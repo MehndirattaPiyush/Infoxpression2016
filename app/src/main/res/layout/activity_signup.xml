@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackgroundfade"
+    android:scrollX="@android:dimen/thumbnail_width"
+    android:scrollbarTrackHorizontal="@color/material_deep_teal_500"
+    android:scrollbars="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.satyamsehgal.infoxpression2016.Signup">
+
+        <EditText
+            android:id="@+id/signup_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:hint="Name"
+            android:inputType="text"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorwhite"
+            android:textColorHint="@color/colorwhitefade" />
+
+        <EditText
+            android:id="@+id/signup_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signup_name"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorwhite"
+            android:hint="Email"
+            android:inputType="text"
+            android:paddingBottom="10dp"
+            android:textColorHint="@color/colorwhitefade" />
+
+        <EditText
+            android:id="@+id/signup_mobileno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signup_email"
+            android:layout_marginTop="20dp"
+            android:hint="Mobile No."
+            android:inputType="phone"
+            android:textColor="@color/colorwhite"
+            android:paddingBottom="10dp"
+            android:textColorHint="@color/colorwhitefade" />
+
+        <EditText
+            android:id="@+id/signup_college"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signup_mobileno"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorwhite"
+            android:hint="College"
+            android:inputType="textAutoComplete"
+            android:paddingBottom="10dp"
+            android:textColorHint="@color/colorwhitefade" />
+
+        <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_spinner_course"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="10dp"
+        android:dropDownWidth="match_parent"
+        android:dropDownSelector="@color/colortexthome"
+        android:entries="@array/spinneritems_course"
+        android:textColor="@color/colorwhite"
+        android:layout_below="@+id/signup_college">
+
+    </Spinner>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup_spinner_branch"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="10dp"
+            android:dropDownWidth="match_parent"
+            android:dropDownSelector="@color/colortexthome"
+            android:entries="@array/spinneritems_branch"
+            android:layout_below="@+id/signup_spinner_course">
+
+        </Spinner>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signup_spinner_event"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="10dp"
+            android:dropDownWidth="match_parent"
+            android:dropDownSelector="@color/colortexthome"
+            android:entries="@array/spinneritems_events"
+            android:textColor="@color/colorwhite"
+            android:layout_below="@+id/signup_spinner_branch">
+
+        </Spinner>
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signup_spinner_event"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginTop="30dp"
+            android:background="@android:drawable/dialog_holo_dark_frame"
+            android:text="REGISTER"
+            android:textColor="@color/colorwhite" />
+
+    </RelativeLayout>
+</ScrollView>

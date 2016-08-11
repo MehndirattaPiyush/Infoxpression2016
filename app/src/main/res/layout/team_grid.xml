@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/team_grid_image"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="12dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:src="@drawable/ic_launcher"></ImageView>
+
+    <TextView
+        android:id="@+id/team_grid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="satyam"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorwhite"
+        android:textSize="18sp"></TextView>
+
+    <TextView
+        android:id="@+id/team_grid_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="satyam"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorwhite"
+        android:textSize="14sp"></TextView>
+
+    <TextView
+        android:id="@+id/team_grid_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="satyam"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorwhite"
+        android:textSize="14sp"></TextView>
+
+</LinearLayout>

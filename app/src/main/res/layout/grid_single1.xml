@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackgroundfade">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/grid_text_schedule1"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="6dp"
+        android:gravity="left"
+        android:text="fodd  basisc code sprintncodecode"
+        android:textColor="@color/colorwhite"
+        android:padding="12dp"
+        android:textSize="14sp"></TextView>
+
+    <TextView
+        android:id="@+id/grid_text_schedule2"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:text="18-21:00, etl-3m ;m;lml;l;m;l177"
+        android:textColor="@color/colorwhite"
+        android:textSize="14sp"
+        android:padding="12dp"
+       ></TextView>
+</LinearLayout>
+</RelativeLayout>
